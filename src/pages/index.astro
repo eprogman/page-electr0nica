@@ -1,11 +1,25 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
+import { Proy } from "../components/Proy";
+import datos from "../config/data.json";
+import Info from "../components/info.astro";
 ---
 
 <Layout>
-	<Welcome />
+	<div class="grid grid-cols-1 xl:grid-cols-3 lg:gap-17">
+		<!-- Parte izquierda sobre proyectos (componente REACT)-->
+		<div class="mr-5 xl:col-span-2 xl:mr-0">
+			{
+				datos.map((dato) => {
+					return <Proy dato={dato} />;
+				})
+			}
+		</div>
+		<div
+			class="flex flex-col items-center gap-y-10 text-justify py-4 mr-7 lg:px-0 lg:mr-0 xl:col-start-3"
+		>
+			<!-- Parte derecha sobre informacion de preguntas frecuentes y API -->
+			<Info />
+		</div>
+	</div>
 </Layout>

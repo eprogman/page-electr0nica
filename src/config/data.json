@@ -1,0 +1,17 @@
+[
+    {
+        "proyecto": "Amplificador",
+        "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus velit officia autem possimus vel dolor aut eum dignissimos sit quas saepe quod nisi unde animi, aliquid tempore, nam vitae rerum maiores adipisci sunt nostrum ipsam hic! Porro distinctio enim facilis quisquam ducimus atque tenetur similique provident sapiente? Eos reprehenderit officiis quod sunt eveniet cumque rerum corporis dolorem animi quae eius cum, eum ipsum labore voluptatum saepe nulla quibusdam beatae soluta dolorum molestias aperiam repudiandae? Mollitia est laboriosam nihil similique vel esse omnis, dolore doloremque eligendi quidem! Exercitationem velit voluptatibus delectus quam qui? Eveniet cumque at nobis veritatis quos dolores optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus velit officia autem possimus vel dolor aut eum dignissimos sit quas saepe quod nisi unde animi, aliquid tempore, nam vitae rerum maiores adipisci sunt nostrum ipsam hic! Porro distinctio enim facilis quisquam ducimus atque tenetur similique provident sapiente? Eos reprehenderit officiis quod sunt eveniet cumque rerum corporis dolorem animi quae eius cum, eum ipsum labore voluptatum saepe nulla quibusdam beatae soluta dolorum molestias aperiam repudiandae? Mollitia est laboriosam nihil similique vel esse omnis, dolore doloremque eligendi quidem! Exercitationem velit voluptatibus delectus quam qui? Eveniet cumque at nobis veritatis quos dolores optio.",
+        "imagen": "https://images.pexels.com/photos/163100/circuit-circuit-board-resistor-computer-163100.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "proyecto": "coete",
+        "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus velit officia autem possimus vel dolor aut eum dignissimos sit quas saepe quod nisi unde animi, aliquid tempore, nam vitae rerum maiores adipisci sunt nostrum ipsam hic! Porro distinctio enim facilis quisquam ducimus atque tenetur similique provident sapiente? Eos reprehenderit officiis quod sunt eveniet cumque rerum corporis dolorem animi quae eius cum, eum ipsum labore voluptatum saepe nulla quibusdam beatae soluta dolorum molestias aperiam repudiandae? Mollitia est laboriosam nihil similique vel esse omnis, dolore doloremque eligendi quidem! Exercitationem velit voluptatibus delectus quam qui? Eveniet cumque at nobis veritatis quos dolores optio.",
+        "imagen": "https://images.pexels.com/photos/2628105/pexels-photo-2628105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "proyecto": "nave",
+        "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus velit officia autem possimus vel dolor aut eum dignissimos sit quas saepe quod nisi unde animi, aliquid tempore, nam vitae rerum maiores adipisci sunt nostrum ipsam hic! Porro distinctio enim facilis quisquam ducimus atque tenetur similique provident sapiente? Eos reprehenderit officiis quod sunt eveniet cumque rerum corporis dolorem animi quae eius cum, eum ipsum labore voluptatum saepe nulla quibusdam beatae soluta dolorum molestias aperiam repudiandae? Mollitia est laboriosam nihil similique vel esse omnis, dolore doloremque eligendi quidem! Exercitationem velit voluptatibus delectus quam qui? Eveniet cumque at nobis veritatis quos dolores optio.",
+        "imagen": "https://images.pexels.com/photos/7286009/pexels-photo-7286009.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+]
