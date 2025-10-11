@@ -1,0 +1,14 @@
+[
+    {
+        "pregunta": "¿Cómo se desarrolló cada proyecto?",
+        "respuesta": "Cada proyecto se desarrolló primero haciendo el diseño a mano, luego implementando y probando el circuito con herramientas de medición, así mismo se utilizó componentes electrónicos que se encuentran fácilmente en las tiendas de electrónica."
+    },
+    {
+        "pregunta": "¿Que utilidades tiene el proyecto?",
+        "respuesta": "Las utilidades del proyecto son para presentaciones en proyectos electrónicos de escuela o universitarios, o profesionales que tengan el conocimiento para su uso, teniendo en consideración que es un circuito de bajo costo, y puede ser aplicado para solucionar alguna necesidad."
+    },
+    {
+        "pregunta": "¿Donde se eleboró el proyecto?",
+        "respuesta": "Cada proyecto se elaboró en los tiempos libres en casa."
+    }
+]

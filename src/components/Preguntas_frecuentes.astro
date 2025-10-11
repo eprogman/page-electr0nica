@@ -1,0 +1,16 @@
+---
+import preguntas from "../config/preguntas.json";
+---
+
+<!-- sector preguntas frecuentes -->{
+    preguntas.map((dato) => {
+        return (
+            <div class=" text-center my-10 max-w-4xl m-auto">
+                <h1>
+                    <strong>{dato.pregunta}</strong>
+                </h1>
+                <p class="px-4">{dato.respuesta}</p>
+            </div>
+        );
+    })
+}

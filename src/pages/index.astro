@@ -1,25 +1,25 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Proy } from "../components/Proy";
-import datos from "../config/data.json";
-import Info from "../components/info.astro";
+import { Proyectos } from "../components/Proyectos.jsx";
+import datosJSON from "../config/data_proyectos.json";
+import Preguntas_frecuentes from "../components/Preguntas_frecuentes.astro";
+import CuadroDATA from "../components/CuadroDATA.astro";
+import { get_DatosAPI } from "../lib/query_de_API.js";
+
+const data = await get_DatosAPI();
 ---
 
 <Layout>
-	<div class="grid grid-cols-1 xl:grid-cols-3 lg:gap-17">
-		<!-- Parte izquierda sobre proyectos (componente REACT)-->
-		<div class="mr-5 xl:col-span-2 xl:mr-0">
-			{
-				datos.map((dato) => {
-					return <Proy dato={dato} />;
-				})
-			}
-		</div>
-		<div
-			class="flex flex-col items-center gap-y-10 text-justify py-4 mr-7 lg:px-0 lg:mr-0 xl:col-start-3"
-		>
-			<!-- Parte derecha sobre informacion de preguntas frecuentes y API -->
-			<Info />
-		</div>
-	</div>
+	<!-- Envío al componente CuadroDATA -->
+	<CuadroDATA resolve={data} />
+
+	<!-- LLamo data_proyectos.json para ser enviado a componente Proyectos y mostrado en cuerpo principal (se usa componente REACT)-->
+	{
+		datosJSON.map((dato) => {
+			return <Proyectos client:load dato={dato} />;
+		})
+	}
+
+	<!-- LLamo componente Preguntas_frecuentes que es mostrado debajo-->
+	<Preguntas_frecuentes />
 </Layout>
