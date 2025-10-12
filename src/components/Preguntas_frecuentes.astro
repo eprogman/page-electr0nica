@@ -10,6 +10,19 @@ import preguntas from "../config/preguntasfrecuentes.json";
                     <strong>{dato.pregunta}</strong>
                 </h1>
                 <p class="px-4">{dato.respuesta}</p>
+                <div class="py-3 text-start">{
+
+                        <div>{Array.isArray(dato.areas) ? dato.areas.map((area,index)=>(
+
+                            <p>{area.analógica}</p>
+                            <p>{area.digital}</p>
+                            <p>{area.automatización}</p>
+                            <p>{area.instrumentación}</p>
+                            <p>{area.telecomunicaciones}</p>
+                            <p>{area.embebidos}</p>
+                        )) : (<p>{dato.areas}</p>)
+                        }</div>
+                }</>
             </div>
         );
     })

@@ -1,14 +1,34 @@
 [
     {
         "pregunta": "¿Cómo se desarrolló cada proyecto?",
-        "respuesta": "Cada proyecto se desarrolló primero haciendo el diseño a mano, luego implementando y probando el circuito con herramientas de medición, así mismo se utilizó componentes electrónicos que se encuentran fácilmente en las tiendas de electrónica."
+        "respuesta": "Cada proyecto se desarrolló haciendo el diseño a mano, o implementando y probando el circuito con herramientas de medición, así mismo se utilizó componentes electrónicos de fácil adquisición en las tiendas de electrónica."
     },
     {
         "pregunta": "¿Que utilidades tiene el proyecto?",
-        "respuesta": "Las utilidades del proyecto son para presentaciones en proyectos electrónicos de escuela o universitarios, o profesionales que tengan el conocimiento para su uso, teniendo en consideración que es un circuito de bajo costo, y puede ser aplicado para solucionar alguna necesidad."
+        "respuesta": "La utilidad del proyecto es en proyectos electrónicos para uso con el conocimiento electrónico necesario, y podría ser aplicado para algún requerimiento."
     },
     {
-        "pregunta": "¿Donde se eleboró el proyecto?",
-        "respuesta": "Cada proyecto se elaboró en los tiempos libres en casa."
+        "pregunta": "¿Qué es ingeniería electrónica?",
+        "respuesta": "Se enfoca en el diseño, desarrollo, estudio de dispositivos y sistemas que funcionan con señales electrónicas de baja potencia y electricidad, así mismo abarca el uso de varios componentes electrónicos. Algunas de las principales áreas de la ingeniería electrónica:",
+        "areas": [
+            {
+                "analógica": "Electrónica analógica: Estudia señales continuas y circuitos como amplificadores, filtros, fuentes de alimentación, etc."
+            },
+            {
+                "digital": "Electrónica digital: Se enfoca en sistemas que trabajan con señales discretas (0 y 1), como computadoras, sistemas embebidos y lógica programable."
+            },
+            {
+                "automatización": "Automatización y control: Diseño de sistemas que regulan procesos automáticamente (por ejemplo, en fábricas o en robótica)."
+            },
+            {
+                "instrumentación": "Instrumentación electrónica: Desarrollo de equipos para medir variables físicas (temperatura, presión, etc.)."
+            },
+            {
+                "telecomunicaciones": "Telecomunicaciones: Diseño de sistemas para transmisión de datos, voz y video (radio, TV, redes móviles, etc.)."
+            },
+            {
+                "embebidos": "Sistemas embebidos: Integración de software y hardware en dispositivos inteligentes (desde un reloj digital hasta un automóvil)."
+            }
+        ]
     }
 ]
