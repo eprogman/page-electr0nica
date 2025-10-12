@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Proyectos } from "../components/Proyectos.jsx";
-import datosProyecto from "../config/data_proyectos.json";
+import Proyectos from "../components/Proyectos.jsx";
+//import datosProyecto from "../config/data_proyectos.json";
 import Preguntas_frecuentes from "../components/Preguntas_frecuentes.astro";
 import DatosAPI from "../components/DatosAPI.jsx";
 ---
@@ -10,13 +10,9 @@ import DatosAPI from "../components/DatosAPI.jsx";
 	<!-- Componente react para llamar a datos de la API-->
 	<DatosAPI client:load />
 
-	<!-- LLamo los datos del JSON "data_proyectos.json" para ser enviado a componente Proyectos y mostrado en cuerpo principal-->
-	{
-		datosProyecto.map((dato) => {
-			return <Proyectos client:load dato={dato} />;
-		})
-	}
+	<!-- Compomente Proyectos para llamar los datos del JSON "data_proyectos.json"-->
+	<Proyectos client:load />
 
-	<!-- LLamo componente Preguntas_frecuentes que es mostrado debajo-->
+	<!-- LLamo componente Preguntas_frecuentes que tambien llamar a un archivo JSON-->
 	<Preguntas_frecuentes />
 </Layout>

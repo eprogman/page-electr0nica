@@ -1,4 +1,3 @@
-// src/components/DatosAPI.jsx
 
 import { useEffect, useState } from 'react';
 
