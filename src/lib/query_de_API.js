@@ -1,6 +1,6 @@
 
 
-const API_ENDPOINT = "https://api-page-electronica.onrender.com/electronica/6"
+const API_ENDPOINT = "https://api-page-electronica.onrender.com/electronica"
 
 export async function get_DatosAPI() {
 
