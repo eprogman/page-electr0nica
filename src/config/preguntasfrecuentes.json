@@ -1,11 +1,7 @@
 [
     {
-        "pregunta": "¿Cómo se desarrolló cada proyecto?",
-        "respuesta": "Desarrollando y probando el circuito con herramientas de medición, se utilizó componentes electrónicos de fácil adquisición en las tiendas de electrónica."
-    },
-    {
-        "pregunta": "¿Que utilidades tiene el proyecto?",
-        "respuesta": "La utilidad del proyecto es en proyectos electrónicos para uso con el conocimiento electrónico necesario, y podría ser aplicado para algún requerimiento."
+        "pregunta": "¿Que utilidad tiene el proyecto?",
+        "respuesta": "En proyectos electrónicos para uso con el conocimiento electrónico necesario, y podría ser aplicado para algún requerimiento en especial."
     },
     {
         "pregunta": "¿Qué es ingeniería electrónica?",

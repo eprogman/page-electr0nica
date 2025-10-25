@@ -15,9 +15,9 @@ export default function Proyectos() {
                         <iframe className="w-full h-full" width="560" height="315"
                             src={`https://www.youtube.com/embed/${app.codigo}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </div>
-                    <p className="mt-3 max-w-5xl"><span className="font-bold">Explicación: </span>{app.descripcion}</p>
-                    <p className="mt-6 max-w-5xl"><span className="font-bold">Observaciones: </span>{app.observaciones}</p>
-                    <p className="mt-6 max-w-5xl"><span className="font-bold">Conclusión: </span>{app.conclusiones}</p>
+                    <p className="mt-3 max-w-5xl"><span className="font-bold">Descripción: </span>{app.descripcion}</p>
+                    <p className="mt-6 max-w-5xl"><span className="font-bold">Observación: </span>{app.observaciones}</p>
+                    <p className="mt-6 max-w-5xl"><span className="font-bold">Implementación: </span>{app.implementación}</p>
                 </section >
             )
 

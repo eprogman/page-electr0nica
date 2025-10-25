@@ -3,14 +3,14 @@
         "proyecto": "Interruptor de iluminación con sensor de movimiento",
         "descripcion": "Proyecto de iluminación al detectar una persona y apagado automático, utilizando un sensor PIR de movimiento. El proyecto tiene bajo consumo de corriente por el mosfet, y es de simple conexión.",
         "codigo": "qEYlQRQ_vnk?si=Jc_GYL9009rxdZS-",
-        "observaciones": "Pruebas en protoboard. Se utiliza 2 baterias para los 7 voltios para los componentes electrónicos.",
-        "conclusiones": "De facil implementación teniendo todos los cuidados necesarios."
+        "observaciones": "Se utilizó 2 baterias para los 7 voltios para los componentes electrónicos y se utilizó un relay SSR-10DA.",
+        "implementación": "Con los conocimientos en ingeniería electrónica y uso adecuando de las herramientas del electrónico"
     },
     {
-        "proyecto": "Nivel alto de voltaje al igualar una hora del rejoj, seteado con modulo matricial 4x4",
-        "descripcion": "Uso de rejoj DS1307 y PIC 16F877A, para establecer un nivel Alto de voltaje por un PIN del PIC, al igualarse la hora actual del rejoj con la hora seteada desde el teclado matricial 4x4, asi mismo se puede volver a setear la hora delo reloj y de alerta en cualquier momento requerido.",
+        "proyecto": "Encendido por el PIC al alcanzar la hora del rejoj, seteado con modulo matricial 4x4",
+        "descripcion": "Se usó el módulo reloj DS1307 y un PIC16F877A, con lo cual se logró establecer un nivel Alto de voltaje por el PIN RA1 del microcontrolador PIC, al igualarse la hora que se seteó primero(que fue la actual), con la hora que se requirió activar un LED, ambos paramentros seteados desde el teclado matricial 4x4, asi mismo es posible setear la hora del reloj y de alerta en cualquier momento requerido.",
         "codigo": "zKZtlq8Zomg?si=T1qisNEH2AubeVhJ",
-        "observaciones": "En el LCD16x2, primero se muestra seteada la hora, luego se setea la hora que se activara una alarma. El voltaje para el funcionamiento del circuito fue de 5 voltios.",
-        "conclusiones": "Realizado en protoboard"
+        "observaciones": "En la pantalla LCD16x2 en la primara fila se seteó la hora, en la segunda fila se seteó la hora a activarse una alarma. El voltaje para el funcionamiento del circuito fue de 5 voltios.",
+        "implementación": "El proyecto se realizó en protoboard y es factible implementar y realizar un circuito impreso"
     }
 ]
