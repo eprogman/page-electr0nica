@@ -1,16 +1,16 @@
 [
     {
-        "proyecto": "Interruptor para iluminación, con sensor de movimiento",
-        "descripcion": "Proyecto para iluminación automatica, al detectar movimiento de una persona. Se realizó utilizando un sensor PIR de movimiento. El proyecto usa bajo consumo de corriente por el mosfet, es de simple conexión y no emite ruidos.",
+        "proyecto": "Interruptor para iluminación, utilizando un MOSFET y sensor de movimiento",
+        "descripcion": "Proyecto para encendido de un foco de forma automatica cuando detecta movimiento, debido a que cuenta con un sensor PIR. En este proyecto se tuvo bajo consumo de corriente a traves de la entrada del relay SSR-10DA y el mosfet, así mismo en la salida del relay SSR-10DA opera con voltaje de 220AC.",
         "codigo": "qEYlQRQ_vnk?si=Jc_GYL9009rxdZS-",
-        "observaciones": "Se utilizó 2 baterias para obtener 7 voltios aproximadamente. De los componentes electrónicos utilizados, esta un relay SSR-10DA.",
-        "implementación": "Se puede solicitar a un especialista en proyectos electrónicos su adecuado desarrollo e implementación y explicación de los componentes utilizados."
+        "observaciones": " Para mayor duración se utilizó dos baterias de litio de 3.7V.",
+        "implementación": ".."
     },
     {
-        "proyecto": "Cambio a nivel alto en pin del microcontrolador PIC con modulo de rejoj y seteado con modulo matricial 4x4",
-        "descripcion": "Para este proyecto se utilizó un módulo reloj DS1307 y un PIC16F877A. Al igualarse la hora actual que fue seteado con el teclado matricial 4x4, con la hora que se requirió activar un LED(ambos seteados con el teclado matricial 4x4), se establece un nivel alto por el PIN de salida del microcontrolador, asi mismo es posible setear la hora del reloj y la hora de activación del LED,  en cualquier momento requerido.",
+        "proyecto": "Pin en alto del microcontrolador PIC usando un modulo de rejoj y seteado con modulo matricial 4x4",
+        "descripcion": "Para este proyecto se utilizó un módulo reloj DS1307 y un PIC16F877A. Al igualarse la hora actual que fue seteado con el teclado matricial 4x4, con la hora que se requirió activar un LED(ambos seteados con el teclado matricial 4x4), se establece un nivel alto por el PIN de salida del microcontrolador, asi mismo es posible setear la hora del reloj y la hora de activación del LED más de una vez.",
         "codigo": "zpzpCser5-g?si=IWMZp9kLfifZvk8k",
-        "observaciones": "En la pantalla LCD16x2 en la primara fila se seteó la hora, en la segunda fila se seteó la hora a activarse el LED. El voltaje para el funcionamiento del circuito fue de 5 voltios.",
-        "implementación": "Es factible implementarlo y realizarlo en un circuito impreso"
+        "observaciones": "En la pantalla LCD16x2 se muestra en la primara fila el seteo de la hora, en la segunda fila el seteo de la hora a activarse el LED. El voltaje para el funcionamiento del circuito fue de 5 voltios.",
+        "implementación": "..."
     }
 ]

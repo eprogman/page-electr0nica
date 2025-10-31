@@ -1,9 +1,5 @@
 [
     {
-        "pregunta": "¿Que utilidad tiene el proyecto?",
-        "respuesta": "En proyectos electrónicos para uso con el conocimiento electrónico necesario, y podría ser aplicado para algún requerimiento en especial."
-    },
-    {
         "pregunta": "¿Qué es ingeniería electrónica?",
         "respuesta": "Se enfoca en el diseño, desarrollo, estudio de dispositivos y sistemas que funcionan con señales electrónicas de baja potencia y electricidad, así mismo abarca el uso de varios componentes electrónicos. Algunas de las principales áreas de la ingeniería electrónica:",
         "areas": [

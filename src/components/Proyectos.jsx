@@ -17,7 +17,7 @@ export default function Proyectos() {
                     </div>
                     <p className="mt-3 max-w-5xl"><span className="font-bold">Descripción: </span>{app.descripcion}</p>
                     <p className="mt-6 max-w-5xl"><span className="font-bold">Observación: </span>{app.observaciones}</p>
-                    <p className="mt-6 max-w-5xl"><span className="font-bold">Implementación: </span>{app.implementación}</p>
+                    {/*<p className="mt-6 max-w-5xl"><span className="font-bold">Implementación: </span>{app.implementación}</p>*/}
                 </section >
             )
 
