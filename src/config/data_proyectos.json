@@ -1,12 +1,5 @@
 [
     {
-        "proyecto": "Interruptor para iluminación, utilizando un MOSFET y sensor de movimiento",
-        "descripcion": "Proyecto para encendido de un foco de forma automatica cuando detecta movimiento, debido a que cuenta con un sensor PIR. En este proyecto se tuvo bajo consumo de corriente a traves de la entrada del relay SSR-10DA y el mosfet, así mismo en la salida del relay SSR-10DA opera con voltaje de 220AC.",
-        "codigo": "qEYlQRQ_vnk?si=Jc_GYL9009rxdZS-",
-        "observaciones": " Para mayor duración se utilizó dos baterias de litio de 3.7V.",
-        "implementación": ".."
-    },
-    {
         "proyecto": "Pin en alto del microcontrolador PIC usando un modulo de rejoj y seteado con modulo matricial 4x4",
         "descripcion": "Para este proyecto se utilizó un módulo reloj DS1307 y un PIC16F877A. Al igualarse la hora actual que fue seteado con el teclado matricial 4x4, con la hora que se requirió activar un LED(ambos seteados con el teclado matricial 4x4), se establece un nivel alto por el PIN de salida del microcontrolador, asi mismo es posible setear la hora del reloj y la hora de activación del LED más de una vez.",
         "codigo": "zpzpCser5-g?si=IWMZp9kLfifZvk8k",
