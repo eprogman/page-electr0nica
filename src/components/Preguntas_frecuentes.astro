@@ -5,7 +5,7 @@ import preguntas from "../config/preguntasfrecuentes.json";
 <!-- sector preguntas frecuentes -->{
     preguntas.map((dato) => {
         return (
-            <div class=" text-center my-10 max-w-4xl m-auto">
+            <div class=" text-center my-10 max-w-4xl m-auto text-emerald-600">
                 <h1>
                     <strong>{dato.pregunta}</strong>
                 </h1>
@@ -14,6 +14,7 @@ import preguntas from "../config/preguntasfrecuentes.json";
 
                         <div>{Array.isArray(dato.areas) ? dato.areas.map((area,index)=>(
 
+                            <p class="font-bold">{area.subtitulo}</p>
                             <p>{area.analógica}</p>
                             <p>{area.digital}</p>
                             <p>{area.automatización}</p>

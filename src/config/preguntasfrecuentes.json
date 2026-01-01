@@ -1,8 +1,11 @@
 [
     {
         "pregunta": "¿Qué es ingeniería electrónica?",
-        "respuesta": "Se enfoca en el diseño, desarrollo, estudio de dispositivos y sistemas que funcionan con señales electrónicas de baja potencia y electricidad, así mismo abarca el uso de varios componentes electrónicos. Algunas de las principales áreas de la ingeniería electrónica:",
+        "respuesta": "Se enfoca en el diseño, desarrollo, estudio de dispositivos y sistemas que funcionan con señales electrónicas de baja potencia y electricidad, así mismo abarca el uso de varios componentes electrónicos.",
         "areas": [
+            {
+                "subtitulo": "Algunas de las principales áreas de la ingeniería electrónica:"
+            },
             {
                 "analógica": "Electrónica analógica: Estudia señales continuas y circuitos como amplificadores, filtros, fuentes de alimentación, etc."
             },

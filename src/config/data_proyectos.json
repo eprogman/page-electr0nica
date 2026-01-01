@@ -1,9 +1,10 @@
 [
     {
-        "proyecto": "Pin en alto del microcontrolador PIC usando un modulo de rejoj y seteado con modulo matricial 4x4",
-        "descripcion": "Para este proyecto se utilizó un módulo reloj DS1307 y un PIC16F877A. Al igualarse la hora actual que fue seteado con el teclado matricial 4x4, con la hora que se requirió activar un LED(ambos seteados con el teclado matricial 4x4), se establece un nivel alto por el PIN de salida del microcontrolador, asi mismo es posible setear la hora del reloj y la hora de activación del LED más de una vez.",
-        "codigo": "zpzpCser5-g?si=IWMZp9kLfifZvk8k",
-        "observaciones": "En la pantalla LCD16x2 se muestra en la primara fila el seteo de la hora, en la segunda fila el seteo de la hora a activarse el LED. El voltaje para el funcionamiento del circuito fue de 5 voltios.",
-        "implementación": "..."
+        "tema": "Parpadeo de LED mediante el uso del TIMER 1 del PIC18F57Q43",
+        "descripcion": "Se configuró un programa para el PIC18F57Q43, para el encendido y apagado de un LED, y posteriormente revisar la señal con un osciloscopio, y verificar el tiempo en alto y bajo de la señal, la cual corresponde al tiempo por cada salto de la interrupción generada en el PIC.",
+        "imagen1": "led.jpeg",
+        "imagen2": "onda.jpeg",
+        "datos": "En datasheet indica que el módulo Timer1 es un contador de 16 bits que incrementa y se accede a través del registro TMRx y Cuando se utiliza con una fuente de reloj interna, el módulo funciona como un temporizador que incrementa en cada ciclo de instrucción. El registro TMRx incrementa hasta FFFFh y se reinicia a 0000h. Cuando TMRx se reinicia, se establece el bit de la bandera de interrupción de Timer1 del registro PIRx.",
+        "implementación": "Se utiliza dos funciones, la función void __interrupt(irq(IRQ_TMR1)) TMR1_ISR(void) y dentro un if(PIR3bits.TMR1IF) que es la bandera de instrucción para la ejecución del cambio de estado de LED, seguidamente también limpiar la bandera. La otra función es el void main(void), función principal, donde se configurará el registro TRISF y LATF para establecer RF3 como salida, así mismo en el uso del Timer1 se adapta para funcionar con Fosc/4 y Prescaler 1:4, configurando T1CLK=0x01 y T1CON=0x23. Con respecto a las interrupciones, se habilita la interrupción con Alta y Baja prioridad con IPEN, por consiguiente alta y baja prioridad con GIEH y GIEL, adicionalmente se limpia la bandera, se habilita interrupción Timer1 y la prioridad alta del Timer1, usando TMR1IF,TMR1IE,TMR1IP respectivamente. Usando un Oscilador interno de 4Mhz salta a interrupción cada 260ms para cambiar el estado de LED."
     }
 ]
