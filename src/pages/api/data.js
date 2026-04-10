@@ -8,11 +8,12 @@
             const res = await fetch(API_ENDPOINT, {
                 headers: {
                     'Authorization': `Bearer ${token}`
-                }
+                },
+                cache: "no-store"
             });
             if (!res.ok) {
                 return new Response(JSON.stringify({ error: "Error en API" }), {
-                    status: res.status
+                    status: res.status,
                 });
             }
 
