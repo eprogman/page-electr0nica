@@ -16,10 +16,15 @@
                 });
             }
 
+            // Aquí ya NO es JSON como texto, sino un objeto JS
             const json = await res.json();
 
+            // Convierte el objeto JS otra vez a JSON en texto para la respuesta
             return new Response(JSON.stringify(json), {
-                status: 200
+                status: 200,
+                headers: {
+                    "Content-Type": "application/json"
+                }
             });
 
         } catch (err) {

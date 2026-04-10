@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from 'react';
-//'use client';
+'use client';
 
 export default function DatosAPI() {
 
