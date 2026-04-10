@@ -23,7 +23,8 @@
             return new Response(JSON.stringify(json), {
                 status: 200,
                 headers: {
-                    "Content-Type": "application/json"
+                    "Content-Type": "application/json",
+                    "Cache-Control": "no-store"
                 }
             });
 
