@@ -1,0 +1,51 @@
+---
+import preguntas from "../config/preguntasfrecuentes.json";
+---
+
+<!-- sector preguntas frecuentes -->{
+    preguntas.map((dato) => {
+        return (
+            <div class="text-center py-8 px-4 max-w-4xl mx-auto">
+                <h1 class="text-2xl lg:text-3xl font-bold text-emerald-700 tracking-wide mb-4">
+                    {dato.pregunta}
+                </h1>
+
+                <p class="text-emerald-600 leading-relaxed mb-6 text-lg">
+                    {dato.respuesta}
+                </p>
+
+                <div class="bg-emerald-50 rounded-lg p-6 space-y-3 text-start">
+                    {Array.isArray(dato.areas) ? (
+                        dato.areas.map((area, index) => (
+                            <div class="space-y-2">
+                                <h3 class="font-bold text-emerald-800 tracking-wide">
+                                    {area.subtitulo}
+                                </h3>
+                                <ul class="text-emerald-700 space-y-1 ml-4">
+                                    {area.analógica && (
+                                        <li>• {area.analógica}</li>
+                                    )}
+                                    {area.digital && <li>• {area.digital}</li>}
+                                    {area.automatización && (
+                                        <li>• {area.automatización}</li>
+                                    )}
+                                    {area.instrumentación && (
+                                        <li>• {area.instrumentación}</li>
+                                    )}
+                                    {area.telecomunicaciones && (
+                                        <li>• {area.telecomunicaciones}</li>
+                                    )}
+                                    {area.embebidos && (
+                                        <li>• {area.embebidos}</li>
+                                    )}
+                                </ul>
+                            </div>
+                        ))
+                    ) : (
+                        <p class="text-emerald-600">{dato.areas}</p>
+                    )}
+                </div>
+            </div>
+        );
+    })
+}
