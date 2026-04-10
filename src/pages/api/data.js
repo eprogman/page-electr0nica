@@ -1,4 +1,6 @@
 
+    export const prerender = false;
+    
     export async function GET() {
 
         const API_ENDPOINT = import.meta.env.API_ENDPOINT || 'http://localhost:3000/electronica';
@@ -25,7 +27,9 @@
                 status: 200,
                 headers: {
                     "Content-Type": "application/json",
-                    "Cache-Control": "no-store"
+                    "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+                    "CDN-Cache-Control": "no-store",
+                    "Netlify-CDN-Cache-Control": "no-store"
                 }
             });
 

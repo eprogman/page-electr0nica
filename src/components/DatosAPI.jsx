@@ -11,7 +11,7 @@ export default function DatosAPI() {
     async function cargarDatos() {
         setLoading(true);
         try {
-            const res = await fetch(`/api/data?t=${Date.now()}`);
+            const res = await fetch('/api/data');
             if (!res.ok) throw new Error("Error al cargar datos");
 
             const dataapi = await res.json();
