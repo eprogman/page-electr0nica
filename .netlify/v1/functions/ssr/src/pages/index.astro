@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Proyectos from "../components/Proyectos.jsx";
+import Preguntas_frecuentes from "../components/Preguntas_frecuentes.astro";
+import DatosAPI from "../components/DatosAPI.jsx";
+
+---
+
+<Layout>
+	<!-- Componente react para llamar a datos de la API-->
+	<DatosAPI client:load/>
+
+	<!-- Compomente Proyectos para llamar los datos del JSON "data_proyectos.json"-->
+	<Proyectos client:load />
+
+	<!-- LLamo componente Preguntas_frecuentes que tambien llamar a un archivo JSON -->
+	<Preguntas_frecuentes />
+</Layout>
