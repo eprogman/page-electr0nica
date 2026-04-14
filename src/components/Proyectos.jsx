@@ -54,8 +54,13 @@ export default function Proyectos() {
                             </p>
 
                             <p className="text-gray-700 leading-relaxed font-medium">
-                                <span className="font-bold text-gray-900 text-lg">Implementación: </span>
-                                {app.implementación}
+                                <span className="font-bold text-gray-900 text-lg">Código: </span>
+                                {app.implementacion.split("\n").map((linea, index) => (
+                                    <span key={index}>
+                                        {linea}
+                                        <br />
+                                    </span>
+                                ))}
                             </p>
                         </div>
                     </section>
